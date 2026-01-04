@@ -1,15 +1,4 @@
-# FastAPI User Management App
-
-A simple **FastAPI-based REST API** for managing users, built with:
-- Python & FastAPI
-- CRUD operations
-- Proper HTTP status codes & error handling
-- Dockerized deployment
-- Automated testing using **TDD (pytest)**
-
----
-
-## Features
+## WebAPI using Python FastAPI
 
 - Welcome endpoint
 - Create, Read, Update, Delete (CRUD) users
@@ -21,7 +10,7 @@ A simple **FastAPI-based REST API** for managing users, built with:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 fastapi-app/
 │
@@ -35,21 +24,11 @@ fastapi-app/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.10+
 - Docker (optional)
 - pip
-
----
-
-## 📦 Installation (Local)
-
-#!/bin/bash
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-
-pip install -r requirements.txt
 
 ---
 
@@ -106,4 +85,4 @@ docker build -t fastapi-user-app .
 ### Run Container
 docker run -d -p 8000:8000 --name fastapi-container fastapi-user-app
 
----
+
